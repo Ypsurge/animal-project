@@ -21,7 +21,6 @@ nav a:hover {
 	background-color: rgba(255, 240, 245,.5); 
 }
 
-/* Dropdowns */
 nav ul ul {
 	display: none;
 	list-style-type: none;
