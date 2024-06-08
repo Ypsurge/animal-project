@@ -1,0 +1,40 @@
+nav {
+	background-color: crimson;
+}
+	
+nav ul li {
+	display:inline-block;
+	background-color: crimson;
+	display: inline-block;
+}
+
+nav a {
+	display:block;
+	padding:0 12px;	
+	color:rgb(255, 240, 245);
+	font-size:20px;
+	line-height: 60px;
+	text-decoration:none;
+}
+
+nav a:hover { 
+	background-color: rgba(255, 240, 245,.5); 
+}
+
+/* Dropdowns */
+nav ul ul {
+	display: none;
+	list-style-type: none;
+	position: absolute; 
+	top: 60px;
+}
+	
+nav ul li:hover > ul {
+	display:inherit;
+}
+	
+nav ul ul li {
+	width:70px;
+	display:list-item;
+	position: relative;
+}

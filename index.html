@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Carousel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="galery.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body class="body">
+    <nav>
+        <ul>
+                <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a>
+            <ul>
+                <li><a href="/dog/dog.html">Dogs</a></li>
+                <li><a href="/cat/cat.html">Cats</a></li>
+                <li><a href="/bird/bird.html">Birds</a></li>
+            </ul>        
+        </ul>
+    </nav>
+    
+    <header>
+        <h1 class="title">Animal Gallery</h1>
+    </header>
+
+    <main>
+        <div class="carousel">        
+            <div class="carousel__btns">            
+                <button id="leftBtn" class="carousel__btn">
+                    <svg xmlns="http://www.w3.org/2000/svg"                
+                        viewBox="0 0 24 24"><path 
+                        fill="currentColor" 
+                        fill-rule="evenodd" 
+                        d="m15 4l2 2l-6 6l6 6l-2 2l-8-8z"/>
+                    </svg>
+                </button>
+                <button id="rightBtn" class="carousel__btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                        viewBox="0 0 24 24"><path 
+                        fill="currentColor" 
+                        fill-rule="evenodd" 
+                        d="m9.005 4l8 8l-8 8L7 18l6.005-6L7 6z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+        
+            <div class="row">
+                <ul>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+    
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
